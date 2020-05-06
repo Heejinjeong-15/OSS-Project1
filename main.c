@@ -1,4 +1,4 @@
-#incuude <stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -15,6 +15,17 @@ int main()
       printf("Enter the second number:");
       scanf("%d",&num2);
       printf("%d +%d =%d",num1,num2,num1+num2);
+      break;
+    default:
+      printf("You enter the wrong number\n");
+      breal;
+      
+      case 2: 1
+      printf("Enter the first number:");
+      scanf("%d",&num1);
+      printf("Enter the second number:");
+      scanf("%d",&num2);
+      printf("%d -%d =%d",num1,num2,num1-num2);
       break;
     default:
       printf("You enter the wrong number\n");
