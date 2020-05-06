@@ -25,7 +25,7 @@ int main()
       break;
     default:
       printf("You enter the wrong number\n");
-      brea;
+      break;
   }
   return 0;
 }
